@@ -1,0 +1,44 @@
+#blocks {
+  display: flex;
+
+  background-color: blue;
+  flex-wrap: wrap;
+
+  align-content: flex-start;
+  height: 150px;
+  width: 400px;
+}
+
+.one {
+  color: bisque;
+  height: 150px;
+  width: 50%;
+  background-color: #df1c1c;
+}
+
+.two {
+  color: #6c9923;
+  height: 150px;
+  width: 50%;
+  background-color: aqua;
+}
+
+.three {
+  color: #501cdf;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
+
+
+@media screen and (min-width:1024px) {
+  .one {
+    width: 100%;
+  }
+  .two {
+    width: 100%;
+  }
+  .three {
+    width: 100%;
+  }
+}
